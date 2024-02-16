@@ -23,7 +23,6 @@
 //                     <span>{stats.likes}</span>
 //                 </li>
 //             </ul>
-//         </div>
 //     )
 // }
 
