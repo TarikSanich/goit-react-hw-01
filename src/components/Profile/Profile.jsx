@@ -28,7 +28,7 @@
 
 import css from './Profile.module.css';
 
-console.log(css);
+
 
 export const Profile = ({
   name,
@@ -49,15 +49,15 @@ export const Profile = ({
       <ul className={css.stats}>
         <li className={css.item}>
           <span className={css.label}>Followers</span>
-          <span className={css.value}>  {followers}</span>
+          <span className={css.value}>{followers}</span>
         </li>
         <li className={css.item}>
           <span className={css.label}>Views</span>
-          <span className={css.value}>  {views}</span>
+          <span className={css.value}>{views}</span>
         </li>
         <li className={css.item}>
           <span className={css.label}>Likes</span>
-          <span className={css.value}>  {likes}</span>
+          <span className={css.value}>{likes}</span>
         </li>
       </ul>
     </div>
