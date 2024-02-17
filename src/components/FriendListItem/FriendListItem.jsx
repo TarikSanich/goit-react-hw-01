@@ -1,4 +1,5 @@
 import css from './FriendListItem.module.css';
+
 export const FriendListItem = ({ data: { avatar, name, isOnline } }) => {
   const status = isOnline ? 'Online' : 'Offline';
   return (
@@ -9,3 +10,4 @@ export const FriendListItem = ({ data: { avatar, name, isOnline } }) => {
     </div>
   );
 };
+
